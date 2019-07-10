@@ -57,14 +57,14 @@ We will have a pairing session where you will share you screen with a couple of 
 
 When you have implemented the validation, the form should have a message at the top. If there are any questions for which you have not provided answers, you should see this:
 
-> ![validation failed](https://user-images.githubusercontent.com/725500/60923497-01fcf200-a26d-11e9-90e3-f6c281cba259.png)
+> ![validation failed](screenshots/validation-failed.png)
 
 If you check off at least one option for each question, you should see this:
 
-> ![thank you](https://user-images.githubusercontent.com/725500/60923751-8fd8dd00-a26d-11e9-995e-c63dd48d5ecf.png)
+> ![thank you](screenshots/thank-you.png)
 
 When you have converted the checkboxes to tags, they should look like this:
 
-> ![tags-selected](https://user-images.githubusercontent.com/725500/60923496-01fcf200-a26d-11e9-9961-3b78f08bf869.png)
+> ![tags-selected](screenshots/tags-selected.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
