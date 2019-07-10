@@ -1,5 +1,7 @@
 # Epion Front End Interview Project
 
+_Epion devs: please see [README-epion.md](README-epion.md)_
+
 Thanks for being interested in coming to work here at Epion Health. Our team values building, reviewing, and pairing on well-crafted applications.  This repo was built to test how you build applications and how you would fit in working with the team at Epion.  It's a simplified version of an assessment form in our Check-in application, and will give you some insight into our product development process.  If you'd like to learn more about our Check-in product please visit our [website](http://www.epionhealth.com/checkin-how-it-works-2/)
 
 We will use Slack to share your screen unless that wouldn't work for you. Please make sure you have the desktop app installed beforehand.
