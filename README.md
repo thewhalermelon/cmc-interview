@@ -44,10 +44,9 @@ Now you can run the tests and watch them fail!
 Now to complete the pre-interview part tasks:
 
 - [ ] add enough code to make the test pass
-- [ ] open a pull-request with the changes for us to review
-- [ ] Email your interview team with a link to the PR.
+- [ ] Email your interview team with a patch with your change.
 
-We will review your PR as a team, and reach back out to you to set up a pairing session
+We will review your code as a team, and reach back out to you to set up a pairing session
 
 ## Pairing Session
 
