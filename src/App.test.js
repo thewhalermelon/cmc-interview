@@ -1,21 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import Adapter from 'enzyme-adapter-react-16';
-import { configure } from 'enzyme';
-import { mount } from 'enzyme';
-import App from './App';
+import { render, screen } from "@testing-library/react";
+import userEvent from "@testing-library/user-event";
+import App from "./App";
 
-configure({ adapter: new Adapter() });
+describe("App", () => {
+  it("shows validation error when form is invalid", () => {
+    render(<App />);
 
-it('renders without crashing', () => {
-  const div = document.createElement('div');
-  ReactDOM.render(<App />, div);
-  ReactDOM.unmountComponentAtNode(div);
-});
+    userEvent.click(screen.getByText("Next"));
 
-it('validates', () => {
-    const wrapper = mount(<App />);
-    wrapper.find('form').simulate('submit');
-    expect(wrapper.find(".status")).toHaveLength(1);
-    expect(wrapper.find(".status").prop("className")).toMatch(/\binvalid/)
+    expect(screen.getByText("You must select at least one value for each question")).toBeInTheDocument();
+  });
 });
