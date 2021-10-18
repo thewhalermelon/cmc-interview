@@ -39,22 +39,15 @@ You will also see any lint errors in the console.
 
 Now you can run the tests and watch them fail!
 
-### `yarn test`
+`yarn test`
 
 Now to complete the pre-interview part tasks:
 
-- [ ] add enough code to make the test pass
-- [ ] Email your interviewer with [patch file(s)](https://thoughtbot.com/blog/send-a-patch-to-someone-using-git-format-patch) containing your changes.
-
-We will review your code as a team, and reach back out to you to set up a pairing session
-
-## Pairing Session
-
-We will have a pairing session where you will share you screen with a couple of Epion developers and add some features to the form.
-
+- [ ] Add enough code to make the test pass
 - [ ] Keep track of the state of the form
 - [ ] Validate the form when the user submits
 - [ ] Change the checkboxes to appear as "tags"
+- [ ] Email your interviewer with [patch file(s)](https://thoughtbot.com/blog/send-a-patch-to-someone-using-git-format-patch) containing your changes. We will review your code as a team, and reach back out to you to set up a pairing session.
 
 When you have implemented the validation, the form should have a message at the top. If there are any questions for which you have not provided answers, you should see this:
 
