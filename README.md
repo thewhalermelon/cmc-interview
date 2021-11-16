@@ -43,7 +43,7 @@ Now you can run the tests and watch them fail!
 - [ ] Keep track of the state of the form
 - [ ] Validate the form when the user submits
 - [ ] Change the checkboxes to appear as "tags"
-- [ ] Please open a pull request, and email your interviewer that it's ready
+- [ ] Email your interviewer with [patch file(s)](https://thoughtbot.com/blog/send-a-patch-to-someone-using-git-format-patch) containing your changes
 
 When you have implemented the validation, the form should have a message at the top. If there are any questions for which you have not provided answers, you should see this:
 
